@@ -1,0 +1,96 @@
+body {
+	background-image: url('Image/techlog.jpg');
+	background-size: cover;
+	height: 100%;
+}
+
+nav, ul, ul li , ul li a {
+	list-style: none;
+}
+
+.Educ ul li .uculogo {
+	position: absolute;
+	top: 1000px;	
+	font-size: 300px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 0 0 50px cyan;
+	text-align: center;
+	left: 32%;
+	text-decoration: 	underline;
+	background-color: #777777;
+	border-radius: 	0 150px 0 150px;
+}
+
+.Educ ul li .citelogo {
+	position: absolute;
+	top: 1700px;	
+	font-size: 300px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 0 0 50px cyan;
+	text-align: center;
+	left: 31.5%;
+	text-decoration: 	underline;
+	background-color: #777777;
+	border-radius: 	0 150px 0 150px;
+}
+
+.Educ ul li .tech {
+	position: absolute;
+	top: 2400px;	
+	font-size: 290px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 0 0 50px cyan;
+	text-align: center;
+	left: 21%;
+	text-decoration: 	underline;
+	background-color: #777777;
+	border-radius: 	0 150px 0 150px;
+}
+
+.Educ ul li ul li .teach {
+	position: absolute;
+	top: 2735px;	
+	font-size: 150px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 0 0 50px cyan;
+	text-align: center;
+	left: 30%;
+	text-decoration: 	underline;
+	background-color: #777777;
+	display: none;
+}
+
+#JBR {
+	padding: 70px 58px 50px 58px;
+}
+
+#DBD {
+	top: 3000.5px;
+	padding: 50px 112px 50px 112px;
+}
+
+#CCM {
+	top: 3270px;
+	padding: 50px 0 50px 0;
+	border: 0 0 50px 50px;
+}
+
+.Educ ul li ul {
+	background-color: #777777;
+}
+
+.Educ ul li:hover .teach {
+	display: block;
+}
+
+a {
+	height: 1000px;
+}

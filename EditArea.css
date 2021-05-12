@@ -1,0 +1,169 @@
+@font-face {
+	src: url('Fonts/static/Orbitron-Medium.ttf');
+	font-family: Orbit;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	background-image: url('Image/Bin1.webp');
+	background-size: cover;
+
+}
+
+.ucu1 {
+	position: absolute;
+	width: 380px;
+	left: 43%;
+	top: 3225px;
+}
+.ucu2 {
+	position: absolute;
+	width: 450px;
+	left: 52%;
+	top: 3225px;
+}
+
+
+.wrapper {
+	background-position: center;
+	background-color: #777777;
+	height: -500px;
+	width: 100%;
+	font-family: Orbit;
+	color: white;
+	padding: 200px 260px;
+	font-size: 180px;
+}
+
+.Menu {
+	background-position: center;
+	background-color: #474747;
+	width: 100%;
+	padding: 0 260px;
+
+}
+
+.baseline {
+	height: 100vh;
+	
+
+}
+
+.baseline video {
+	position: relative;
+	width: 109.5%;
+
+	top: 20px;
+	
+
+
+}
+.baseline h2 {
+	position: absolute;
+	top: 1000px;	
+	width: 100%;
+	height: 100%;
+	font-size: 300px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 0 0 50px cyan;
+
+}
+
+.baseline h2:after	 {
+	content: attr(data-text);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;	
+	font-size: 300px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white ;
+}
+
+article {
+	position: absolute;
+	top: 2700px;
+	width: 100%;
+	height: 100%;
+	font-size: 100px;
+	text-align: center;
+	color: white;
+	text-decoration: underline;
+	font-family: arial;
+}
+
+p {
+	position: absolute;
+	top: 2850px;	
+	width: 100%;
+	height: 100%;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	font-family: arial;
+}
+
+nav {
+			width: 90%;
+			height: 100px;
+			color: white;
+			font-size: 100px;
+			margin: 20px;
+
+}
+
+h1 {
+	font-family: Orbit;
+	color: white;
+	padding: 0 15px;
+	font-size: 200px;
+
+}
+
+.ul {
+
+	text-align: center;
+
+}
+
+.Menu ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 110px 15px;
+	font-size: 70px;
+
+
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 0;
+	margin: 0 100px;
+	font-weight: 600;
+
+}
+
+ul li a:hover {
+	
+	color: #1b1b1b;
+	text-shadow: 0 0 30px skyblue;
+}
+
+.current {
+	text-decoration: underline;
+	color:  black;
+	text-shadow: 0 0 30px skyblue;
+}
+
+
+

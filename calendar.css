@@ -1,0 +1,157 @@
+
+.lamesa {
+	position: relative;
+	height: 100%;
+	object-position: center;
+	border-spacing: 50px;
+	background-image: url('Image/cal.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 50px;
+	font-family: arial;
+}
+table, tr, td, th {
+	color: black;
+	font-size: 100px;
+	padding: 0 45px 0 45px;
+
+}
+td {
+	text-align: right;
+}
+
+table tr .title {
+	font-family: arial;
+	font-size: 200px;
+	color: black;
+}
+
+.Feb, .Mar, .Apr, .Jun,
+.Nov, .Dec {
+	position: relative;	
+	top: -60px;
+}
+
+
+table tbody .Nobo {
+	border: 0px;
+}
+
+
+a {
+	color: white;
+}
+
+#day {
+
+}
+
+.snday {
+	color: red;
+}
+
+
+
+/*----------------------------------*/
+
+
+#day:hover {
+	background-color: cyan;
+	cursor: pointer;
+}
+
+#NewYear, #AK, #MT, #GF, #LD, #Ind,
+#NHD, #Bond, #Christ, #Rizd, #CNY,
+#EdsaP, #BS, #NAD, #ASD, #FICM,
+#ASOD, #CE, #NE {
+	text-decoration-color: white;
+	text-decoration: underline;
+	color: white;
+}
+
+#NewYear:hover, #AK:hover, #MT:hover, 
+#GF:hover, #LD:hover, #Ind:hover, #NHD:hover,
+#Bond:hover, #Christ:hover, #Rizd:hover,
+#CNY:hover, #EdsaP:hover, #BS:hover, #NAD:hover,
+#ASD:hover, #FICM:hover, #ASOD:hover, #CE:hover, #NE:hover {
+	background-color: cyan;
+	text-align: center;
+	color: white;
+	display: block;
+}
+
+/*---------MOCKUP---------*/
+
+.Mock {
+	margin: 0;
+	padding: 0 1000px 0 0;
+	position: relative;
+	height: 1500px;
+	top: 1000px;
+	border-collapse: collapse;	
+	border-spacing: 0;
+}
+
+.Mock th {
+	height: 500px;
+	color: white;
+}
+.Mock .baseline video {
+	position: relative;
+	width: 4800px;		
+	top: 20px;
+}
+
+.Mock .Menu {
+	background-position: center;
+	background-color: #474747;
+	width: 100%;
+	padding: 0;
+
+}
+.Mock .wrapper {
+	background-position: center;
+	background-color: #777777;
+	height: -500px;
+	width: 100%;
+	font-family: Orbit;
+	color: white;
+	padding: 200px 0;
+	font-size: 180px;
+}
+
+.Mock .baseline h2 {
+	position: absolute;
+	top: 1500px;	
+	width: 100%;
+	height: 100%;
+	font-size: 250px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 0 0 50px cyan;
+
+}
+
+.Mock .baseline h2:after	 {
+	content: attr(data-text);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;	
+	font-size: 250px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white ;
+}
+
+.Mock h1 {
+
+	font-family: Orbit;
+	color: white;
+	padding: 0 15px;
+	font-size: 200px;
+	text-align: left;
+	margin: 0 0 0 20px;
+}
